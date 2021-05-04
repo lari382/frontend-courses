@@ -42,7 +42,7 @@ header nav a:hover{
 }
 .movie-principal{
     font-size: 16px;
-    background: url('/images/toy-story.jpeg');
+    background: url('netflix-interface-dio/images/toy-story.jpeg');
     height: 400px;
     background-size: cover;
 }
