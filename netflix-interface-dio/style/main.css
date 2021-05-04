@@ -18,7 +18,7 @@ header .container{
 body{
   background: var(--preta);
   font-family: 'Times New Roman', Times, serif;
-  color:#fff,
+  color:white;
     
 }
 
@@ -39,4 +39,10 @@ header nav a{
 header nav a:hover{
     color:#fff;
 
+}
+.movie-principal{
+    font-size: 16px;
+    background: url('/images/toy-story.jpeg');
+    height: 400px;
+    background-size: cover;
 }
