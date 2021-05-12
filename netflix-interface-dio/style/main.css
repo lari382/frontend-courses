@@ -42,7 +42,7 @@ header nav a:hover{
 }
 .movie-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)100%) ;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)100%), url('netflix-interface-dio/images/constantine-cover.jpg') ;
     height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
