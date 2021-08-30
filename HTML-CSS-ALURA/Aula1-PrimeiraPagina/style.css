@@ -1,0 +1,23 @@
+body{
+    background-color: #ccc;
+}
+
+#banner{
+    width: 100%;
+    padding: 0%;
+}
+
+h1{
+    text-align: center;
+
+}
+p{
+    text-align: center;
+
+}
+.missao{
+    font-size: 20px;
+}
+.missao strong{
+    color: red;
+}
