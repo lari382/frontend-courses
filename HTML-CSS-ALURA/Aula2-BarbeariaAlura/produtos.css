@@ -30,7 +30,7 @@ nav a{
 }
 
 nav a:hover{
-    color: greenyellow;
+    color: #c78c19;
     text-decoration: underline;
 }
 
@@ -44,12 +44,20 @@ nav a:hover{
     text-align: center;
     width: 30%;
     vertical-align: top;
-    border: black;
-    border-style: solid;
+    border: 2px solid black;
     border-radius: 1em;
     margin: 0 1.25%;
     padding: 30px 20px;
     box-sizing: border-box;
+}
+
+.produtos li:hover{
+    border-color: #c78c19;
+    color: #c78c19;
+}
+
+.produtos li:hover h2{
+    font-size: 34px;
 }
 
 .produtos h2{
@@ -67,4 +75,16 @@ nav a:hover{
     font-size: 22px;
     font-weight: bold;
     margin: 10px 0 0;
+}
+
+footer{
+    text-align: center;
+    background: url("/Aula2-BarbeariaAlura/img/bg.jpg") ;
+    padding: 40px 0 ;
+}
+.rodape{
+    color:#fff;
+    font-size: 10px;
+    margin-top: 20px;
+
 }
