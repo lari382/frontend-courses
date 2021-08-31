@@ -33,3 +33,38 @@ nav a:hover{
     color: greenyellow;
     text-decoration: underline;
 }
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    border: black;
+    border-style: solid;
+    border-radius: 1em;
+    margin: 0 1.25%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 0 20px;
+    
+}
+
+.descricao{
+    font-size: 18px;
+    margin: 10px 0 0;
+}
+.preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
