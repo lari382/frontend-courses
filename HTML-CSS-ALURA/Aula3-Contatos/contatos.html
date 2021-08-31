@@ -43,29 +43,51 @@
             <label for="mensagem">Mensagem</label>
             <textarea class="input-padrao" cols="75" rows="10" id="mensagem" required></textarea>
             
-            <div>
+            <fieldset>
                 
-                <p>Como prefere o nosso contato?</p>
+                <legend>Como prefere o nosso contato?</legend>
 
                 <label for="radio-email"><input type="radio" name="contato" id="radio-email">E-mail</label>
                 
                 <label for="radio-whats"><input type="radio" name="contato"  id="radio-whats" checked>Whatsapp</label>
                 
                 <label for="radio-ligacao"><input type="radio" name="contato"  id="radio-ligacao">Ligação</label>
-            </div>
-            <div>
-                <p>Qual horário prefere ser atendido?</p>
+            </fieldset>
+            <fieldset>
+                <legend>Qual horário prefere ser atendido?</legend>
                 <select>
                     <option>Manhã</option>
                     <option>Tarde</option>
                     <option>Noite</option>
                 </select>
-            </div>  
+            </fieldset>  
             <label><input class="checkbox" type="checkbox" checked>Gostaria de receber nossa newsletter?</label>
 
-            <input type="submit" value="Enviar Formulário">
+            <input type="submit" value="Enviar Formulário" class="enviar">
 
         </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horário</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+                <tr>
+                    <td>Segunda a Sexta</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Sábados</td>
+                    <td>12h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Domingos e Feriados</td>
+                    <td>Fechado</td>
+                </tr>
+            </tbody>
+        </table>
     </main>
 
     <footer>

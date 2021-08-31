@@ -43,7 +43,7 @@ form{
    
 }
 
-form label, form p{
+form label, form legend{
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
@@ -63,6 +63,40 @@ form label, form p{
 
 .radio-button{
     display: inline;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: #c78c19;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: darkorange;
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+table{
+    margin: 40px 20px;
+}
+
+thead{
+    background: #555;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+td, th{
+    border: solid 1px black;
+    padding: 15px 8px;
+    text-align: center;
 }
 
 footer{
