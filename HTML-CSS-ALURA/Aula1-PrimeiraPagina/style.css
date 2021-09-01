@@ -1,3 +1,71 @@
+
+header{
+    background: #bbb;
+    padding: 20px 0;
+}
+.cabeçalho{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+    
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+    
+    
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    border: 2px solid black;
+    border-radius: 1em;
+    margin: 0 1.25%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.produtos li:hover{
+    border-color: #c78c19;
+    color: #c78c19;
+}
+
+.produtos li:hover h2{
+    font-size: 34px;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 0 20px;
+    
+}
 #banner{
     width: 100%;
     padding: 0%;
@@ -19,10 +87,10 @@ p{
     text-align: center;
 
 }
-.missao{
+#missao{
     font-size: 20px;
 }
-.missao strong{
+#missao strong{
     color: red;
 }
 
@@ -35,6 +103,8 @@ p{
     margin-right: 15%;
 }
 
+
+
 .beneficios{
     background-color: #fff;
     text-align: center;
@@ -46,4 +116,16 @@ p{
     display: inline-block;
     vertical-align: top;
     padding: 20px;
+}
+
+footer{
+    text-align: center;
+    background: url("/Aula2-BarbeariaAlura/img/bg.jpg") ;
+    padding: 40px 0 ;
+}
+.rodape{
+    color:#fff;
+    font-size: 10px;
+    margin-top: 20px;
+
 }
